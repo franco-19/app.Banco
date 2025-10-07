@@ -16,5 +16,21 @@ namespace app.Banco.Formularios
         {
             InitializeComponent();
         }
+
+        private void iconCuentas_Click(object sender, EventArgs e)
+        {
+            FrmMovimientoCuentas frm = new FrmMovimientoCuentas();
+            frm.ShowDialog();
+        }
+
+        private void iconAgregar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Este es el modulo de cuentas.");
+        }
+
+        private void iconCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

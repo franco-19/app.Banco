@@ -16,5 +16,15 @@ namespace app.Banco.Formularios
         {
             InitializeComponent();
         }
+
+        private void iconAgregar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Este es el modulo de clientes.");
+        }
+
+        private void iconCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -182,5 +182,10 @@ namespace app.Banco.Formularios
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
+        private void iconCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
